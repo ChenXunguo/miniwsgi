@@ -1,0 +1,7 @@
+# 本框架零第三方依赖，仅使用 Python 标准库。
+# 以下为可选依赖（用于示例和测试）：
+# 运行示例无需安装任何包。
+# 如需运行项目2气温预测API示例，需安装：
+#   scikit-learn, pandas, numpy, joblib
+# 如需使用 pytest 运行测试（可选，默认用 unittest）：
+#   pytest

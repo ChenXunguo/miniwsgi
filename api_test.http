@@ -1,0 +1,13 @@
+### 健康检查接口
+GET http://127.0.0.1:8900/health
+
+### 获取模型信息
+GET http://127.0.0.1:8900/model_info
+
+### 气温预测接口
+POST http://127.0.0.1:8900/predict
+Content-Type: application/json
+
+{
+    "recent_temps": [18.2, 17.5, 16.8, 17.1, 17.9, 18.3, 18.6, 19.0]
+}
